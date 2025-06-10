@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#
+# i3blocks blocklet script to monitor Yandex.Disk status
+
+diskstatus="📢" # Статус по умолчанию
+yandex_output=$(yandex-disk status 2>&1 | head -1)
+
+if [[ "$yandex_output" == *"ожидание команды"* ]]; then
+  diskstatus="💤" # Спящий режим/ожидание
+elif [[ "$yandex_output" == *"обработка данных"* ]]; then
+  diskstatus="🔄" # Синхронизация
+elif [[ "$yandex_output" == *"остановлен"* ]]; then
+  diskstatus="⏸️" # Пауза/остановлен
+elif [[ "$yandex_output" == *"демон не запущен"* ]]; then
+  diskstatus="❌" # Сервис не работает
+elif [[ "$yandex_output" == *"Ошибка"* ]]; then
+  diskstatus="⚠️" # Ошибка
+fi
+
+echo "$diskstatus"
