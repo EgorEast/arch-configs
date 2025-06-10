@@ -19,6 +19,8 @@
 !gtk-4.0/
 !xsettingsd/
 !autostart/
+!bottom/
+!htop/
 
 !spectaclerc
 !mimeapps.list
