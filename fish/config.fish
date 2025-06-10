@@ -16,17 +16,10 @@ set -q XDG_STATE_HOME || set -U XDG_STATE_HOME $HOME/.local/state
 set -q XDG_CONFIG_HOME || set -U XDG_CONFIG_HOME $HOME/.config
 set -q XDG_CACHE_HOME || set -U XDG_CACHE_HOME $HOME/.cache
 
-# Различные настройки
-# Используем привычные сочетания клавиш
 set -U fish_key_bindings fish_vi_key_bindings
 
 # Двойное нажатие ESC не работает, если выставить меньше
 set -g fish_escape_delay_ms 300
-
-# В Yakuake вывод fetch не очень смотрится
-if command -q fastfetch && ! string match -q -- "*yakuake*" (pstree -s -p $fish_pid)
-    fastfetch
-end
 
 set -Ux EDITOR nvim
 set -gx BROWSER xdg-open
@@ -37,15 +30,7 @@ set -U __done_exclude '^(v|nvim|y|yazi|m|cmus|g|lazygit)' # default: all git com
 set -U __done_notify_sound 1
 set -U pisces_only_insert_at_eol 1
 
-function y
-    set tmp (mktemp -t "yazi-cwd.XXXXXX")
-    yazi $argv --cwd-file="$tmp"
-    if read -z cwd <"$tmp"; and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
-        builtin cd -- "$cwd"
-    end
-    rm -f -- "$tmp"
-end
-
+alias y="yazi"
 alias v="nvim"
 alias m="cmus"
 alias g="lazygit"
@@ -57,3 +42,10 @@ alias update_fisher='fisher update'
 alias update_yazi='ya pkg update'
 alias update_packages='sudo pacman -Syu'
 alias update_packages_yay='yay'
+alias check_disk_usage='gdu'
+alias show_repo_info='onefetch'
+alias show_system_info='fastfetch'
+alias show_resources_usage='btm'
+alias show_resources_usage_htop='htop'
+alias download_from_youtube='yt-dlp'
+alias yandex-disk='yandex-disk'
