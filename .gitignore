@@ -17,6 +17,8 @@
 !yazi/
 !gtk-3.0/
 !gtk-4.0/
+!xsettingsd/
+!autostart/
 
 !spectaclerc
 !mimeapps.list
@@ -24,10 +26,6 @@
 !user-dirs.dirs
 !user-dirs.locale
 
-
-# Если нужно разрешить конкретные файлы внутри игнорируемых папок
-# !src/**/*.js
-# !assets/images/*.png
 yandex-disk/iid
 yandex-disk/passwd
 
