@@ -454,6 +454,19 @@ exec --no-startup-id redshift -b 1.0:0.7 -t 6500:3200 -l 47:39
 # enable natural scrolling for touchpad
 exec --no-startup-id xinput set-prop "SYNA2BA6:00 06CB:CE2D Touchpad" "libinput Natural Scrolling Enabled" 1
 
+# Тёмная тема GTK
+exec_always --no-startup-id export GTK_THEME=Adwaita:dark
+
+# Для GTK4 (и некоторых приложений, например, Electron)
+exec_always --no-startup-id export GTK_THEME_VARIANT=dark
+
+# Для Qt/KDE-приложений
+exec_always --no-startup-id export QT_STYLE_OVERRIDE=adwaita-dark
+exec_always --no-startup-id export QT_QPA_PLATFORMTHEME=qt5ct  # (если используете qt5ct)
+
+# Для Flatpak-приложений
+exec_always --no-startup-id export FLATPAK_ENABLE_SDK_EXT=dark-mode
+
 ###############
 # system tray #
 ###############
