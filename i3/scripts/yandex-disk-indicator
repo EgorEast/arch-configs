@@ -1,20 +1,26 @@
 #!/usr/bin/env bash
 #
-# i3blocks blocklet script to monitor Yandex.Disk status
+# i3blocks blocklet script to monitor Yandex.Disk status (subtle version)
 
-diskstatus="📢" # Статус по умолчанию
+# Мягкие пастельные цвета
+COLOR_IDLE="#94a3b8"    # Серо-голубой (ожидание)
+COLOR_SYNCING="#7dd3fc" # Голубой (синхронизация)
+COLOR_PAUSED="#d6d3d1"  # Светло-серый (пауза)
+COLOR_OFF="#fca5a5"     # Пастельно-красный (выключен)
+COLOR_ERROR="#fcd34d"   # Пастельно-желтый (ошибка)
+
 yandex_output=$(yandex-disk status 2>&1 | head -1)
 
 if [[ "$yandex_output" == *"ожидание команды"* ]]; then
-  diskstatus="💤" # Спящий режим/ожидание
+  echo "<span color='$COLOR_IDLE'>yd-󰤄</span>" # Иконка: fa-moon (Nerd Fonts)
 elif [[ "$yandex_output" == *"обработка данных"* ]]; then
-  diskstatus="🔄" # Синхронизация
+  echo "<span color='$COLOR_SYNCING'>yd-󰇚</span>" # Иконка: fa-cloud-upload-alt
 elif [[ "$yandex_output" == *"остановлен"* ]]; then
-  diskstatus="⏸️" # Пауза/остановлен
+  echo "<span color='$COLOR_PAUSED'>yd-󰏤</span>" # Иконка: fa-pause
 elif [[ "$yandex_output" == *"демон не запущен"* ]]; then
-  diskstatus="❌" # Сервис не работает
+  echo "<span color='$COLOR_OFF'>yd-󰤭</span>" # Иконка: fa-power-off
 elif [[ "$yandex_output" == *"Ошибка"* ]]; then
-  diskstatus="⚠️" # Ошибка
+  echo "<span color='$COLOR_ERROR'>yd-󰀦</span>" # Иконка: fa-exclamation-triangle
+else
+  echo "<span color='$COLOR_IDLE'>yd-󰀷</span>" # Иконка: fa-question (неизвестный статус)
 fi
-
-echo "$diskstatus"
