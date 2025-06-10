@@ -1,0 +1,122 @@
+# default -- https://github.com/sxyazi/yazi/blob/shipped/yazi-config/preset/keymap-default.toml
+
+[mgr]
+prepend_keymap = [
+  # ouch
+  { on = [
+    "C",
+  ], run = "plugin ouch", desc = "Compress with ouch" },
+  # relative motions
+  { on = [
+    "m",
+  ], run = "plugin relative-motions", desc = "Trigger a new relative motion" },
+  # find
+  { on = [
+    "f",
+    "g",
+  ], run = "plugin fg", desc = "find file by content (fuzzy match)" },
+  { on = [
+    "f",
+    "G",
+  ], run = "plugin fg -- rg", desc = "find file by content (ripgrep match)" },
+  { on = [
+    "f",
+    "f",
+  ], run = "plugin fg -- fzf", desc = "find file by filename" },
+
+  { on = [
+    "f",
+    "F",
+  ], run = "filter --smart", desc = "Filter files" },
+  { on = [
+    "f",
+    "j",
+  ], run = "plugin first-non-directory", desc = "Jumps to the first file" },
+
+  # rename
+  # --hovered: Always rename the hovered file regardless of the selection state.
+  # --force: Overwrite the destination file directly if it exists, without showing the confirmation dialog.
+  # --empty: Empty a part of the filename.
+  #   "stem": Empty the stem. e.g. "foo.jpg" -> ".jpg".
+  #   "ext": Empty the extension. e.g. "foo.jpg" -> "foo.".
+  #   "dot_ext": Empty the dot and extension. e.g. "foo.jpg" -> "foo".
+  #   "all": Empty the whole filename. e.g. "foo.jpg" -> "".
+  # --cursor: Specify the cursor position of the renaming input box.
+  #   "end": The end of the filename.
+  #   "start": The start of the filename.
+  #   "before_ext": Before the extension of the filename.
+  { on = [
+    "r",
+    "r",
+  ], run = "rename --cursor=before_ext", desc = "Rename selected file(s)" },
+  { on = [
+    "r",
+    "e",
+  ], run = "rename --cursor=end", desc = "Rename end" },
+  { on = [
+    "r",
+    "s",
+  ], run = "rename --cursor=start", desc = "Rename start" },
+  { on = [
+    "r",
+    "n",
+  ], run = "rename --cursor=start --empty=stem", desc = "Remove name 'foo.jpg' -> '.jpg'" },
+  { on = [
+    "r",
+    "x",
+  ], run = "rename --cursor=end --empty=ext", desc = "Remove ext 'foo.jpg' -> 'foo.'" },
+  { on = [
+    "r",
+    "d",
+  ], run = "rename --cursor=end --empty=dot_ext", desc = "Remove ext and dot 'foo.jpg' -> 'foo'" },
+  { on = [
+    "r",
+    "a",
+  ], run = "rename --cursor=end --empty=all", desc = "Remove all 'foo.jpg' -> ''" },
+
+  { on = [
+    "b",
+    "a",
+  ], run = "plugin yamb save", desc = "Add bookmark" },
+  { on = [
+    "b",
+    "g",
+  ], run = "plugin yamb jump_by_key", desc = "Jump bookmark by key" },
+  { on = [
+    "b",
+    "G",
+  ], run = "plugin yamb jump_by_fzf", desc = "Jump bookmark by fzf" },
+  { on = [
+    "b",
+    "d",
+  ], run = "plugin yamb delete_by_key", desc = "Delete bookmark by key" },
+  { on = [
+    "b",
+    "D",
+  ], run = "plugin yamb delete_by_fzf", desc = "Delete bookmark by fzf" },
+  { on = [
+    "b",
+    "A",
+  ], run = "plugin yamb delete_all", desc = "Delete all bookmarks" },
+  { on = [
+    "b",
+    "r",
+  ], run = "plugin yamb rename_by_key", desc = "Rename bookmark by key" },
+  { on = [
+    "b",
+    "R",
+  ], run = "plugin yamb rename_by_fzf", desc = "Rename bookmark by fzf" },
+
+  { on = [
+    "c",
+    "m",
+  ], run = "plugin chmod", desc = "Chmod on selected files" },
+
+  { on = [
+    "g",
+    "i",
+  ], run = "plugin lazygit", desc = "run lazygit" },
+
+
+  { on = "u", run = "plugin restore", desc = "Restore last deleted files/folders" },
+]

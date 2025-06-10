@@ -1,0 +1,7 @@
+# git:
+#   paging:
+#     externalDiffCommand: difft --color=always
+git:
+  paging:
+    colorArg: always
+    pager: diff-so-fancy

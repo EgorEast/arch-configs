@@ -1,0 +1,33 @@
+# Игнорировать ВСЁ
+/*
+
+# Но не игнорировать нужные файлы/папки
+!.gitignore
+!cmus/
+!dunst/
+!fish/
+!i3/
+!kitty/
+!lazygit/
+!neofetch/
+!neofetch/
+!nvim/
+!rofi/
+!yandex-disk/
+!yazi/
+!gtk-3.0/
+!gtk-4.0/
+
+!spectaclerc
+!mimeapps.list
+!picom.conf
+!user-dirs.dirs
+!user-dirs.locale
+
+
+# Если нужно разрешить конкретные файлы внутри игнорируемых папок
+# !src/**/*.js
+# !assets/images/*.png
+yandex-disk/iid
+yandex-disk/passwd
+
