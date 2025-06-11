@@ -22,5 +22,5 @@ video/webm=yandex-browser.desktop;firefox.desktop;mpv.desktop;org.shotcut.Shotcu
 x-scheme-handler/chrome=yandex-browser.desktop;firefox.desktop;
 x-scheme-handler/http=yandex-browser.desktop;firefox.desktop;
 x-scheme-handler/https=yandex-browser.desktop;firefox.desktop;
-x-scheme-handler/mailto=yandex-browser.desktop;firefox.desktop;
+x-scheme-handler/mailto=yandex-browser.desktop
 x-scheme-handler/httpxdg-mime=yandex-browser.desktop;firefox.desktop;
