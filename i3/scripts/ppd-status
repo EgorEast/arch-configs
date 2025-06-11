@@ -9,17 +9,25 @@
 
 # assign tags or translations to each profile
 declare -A tags
+declare -A colors
+
 tags=(
   [performance]="Performance"
   [balanced]="Balanced"
-  [power-saver]="Power saver"
+  ['power-saver']="Power saver"
+)
+colors=(
+  [performance]="#a8b5e0"   # Мягкий лавандовый (агрессивный режим)
+  [balanced]="#b5e0a8"      # Нежно-мятный (баланс)
+  ['power-saver']="#e0a8b5" # Тёплый розовый (энергосбережение)
 )
 
-# Get current profile 
-current_profile=$(/usr/bin/powerprofilesctl get)
+# Get current profile
+current_profile=$(powerprofilesctl get)
 
 # Get tag from the array
 profile_tag=${tags[$current_profile]}
+profile_color=${colors[$current_profile]}
 
 # Show tag on i3block
-echo "${profile_tag:-$current_profile}"
+echo "<span color='${profile_color}'>${profile_tag:-$current_profile}</span>"
