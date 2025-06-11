@@ -406,7 +406,7 @@ exec --no-startup-id setxkbmap -layout us,ru -option grp:rwin_toggle
 
 # start a script to setup displays
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
-exec --no-startup-id ~/.screenlayout/monitor.sh
+exec --no-startup-id ~/.config/i3/screenlayout/with-second-screen-laptop.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
@@ -448,8 +448,6 @@ exec --no-startup-id sleep 2 && $terminal
 exec --no-startup-id sleep 3 && $browser 
 exec --no-startup-id sleep 3 && $obsidian
 #exec --no-startup-id sleep 3 && thunar
-exec --no-startup-id xrandr --output eDP --mode 1920x1080 --pos 0x0
-exec --no-startup-id xrandr --output HDMI-A-0 --primary --mode 2560x1440 --pos 1920x-600 --rotate left
 exec --no-startup-id redshift -b 1.0:0.7 -t 6500:3200 -l 47:39
 # enable natural scrolling for touchpad
 exec --no-startup-id xinput set-prop "SYNA2BA6:00 06CB:CE2D Touchpad" "libinput Natural Scrolling Enabled" 1
