@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-KBD=$(/usr/bin/xkblayout-state print '%s')
-echo $KBD
-
+KBD=$(xkblayout-state print '%s')
+case "$KBD" in
+ru) echo "🇷🇺" ;;
+us) echo "🇺🇸" ;;
+*) echo "$KBD" ;; # fallback если раскладка не в списке
+esac
