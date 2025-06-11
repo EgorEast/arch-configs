@@ -26,6 +26,7 @@
 !picom.conf
 !user-dirs.dirs
 !user-dirs.locale
+!greenclip.toml
 
 yandex-disk/iid
 yandex-disk/passwd
