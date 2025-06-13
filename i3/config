@@ -410,7 +410,7 @@ exec --no-startup-id ~/.config/i3/screenlayout/with-second-screen-laptop.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
+exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/eos_wallpapers_classic/NEO-JWST.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
