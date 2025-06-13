@@ -1,3 +1,7 @@
+[General]
+clipboardGroup=PostScreenshotCopyImage
+launchAction=UseLastUsedCapturemode
+
 [GuiConfig]
 captureMode=0
 
@@ -5,4 +9,5 @@ captureMode=0
 translatedScreenshotsFolder=Снимки экрана
 
 [VideoSave]
+preferredVideoFormat=0
 translatedScreencastsFolder=Записи экрана
