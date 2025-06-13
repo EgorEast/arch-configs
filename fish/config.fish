@@ -22,6 +22,7 @@ set -U fish_key_bindings fish_vi_key_bindings
 set -g fish_escape_delay_ms 300
 
 set -Ux EDITOR nvim
+set -Ux VISUAL nvim
 set -gx BROWSER xdg-open
 
 set -U PROJECT_PATHS ~/Programming/exarh-web ~/Yandex.Disk/ ~/Yandex.Disk/Obsidian/
