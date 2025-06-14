@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# gsimplecal
+
+date '+%a %d %b %H:%M:%S'
