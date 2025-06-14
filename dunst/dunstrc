@@ -134,3 +134,8 @@
     urgency = normal
     timeout = 15
     frame_color = "#ff7f7f"
+
+[play_sound]
+    summary = "*"
+    # Запуск скрипта для каждого уведомления
+    script = ~/.config/dunst/notify-sound.sh
