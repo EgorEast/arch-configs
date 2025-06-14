@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
-# gsimplecal
-
 date '+%a %d %b %H:%M:%S'
+
+# Проверяем, был ли клик (переменная окружения BLOCK_BUTTON)
+if [[ "$BLOCK_BUTTON" -eq 1 ]]; then
+  # При клике - открываем календарь
+
+  gsimplecal &
+fi
