@@ -52,7 +52,7 @@
     font = JetBrainsMono Nerd Font Mono 9.5
     line_height = 0
     markup = full
-    format = "<b>%s</b>\n%b\n%a"
+    format = "<b>%s</b>\n%b"
     alignment = left
     vertical_alignment = center
     show_age_threshold = 60
@@ -119,3 +119,18 @@
     appname = "some_volume_notifiers"
     set_stack_tag = "volume"
 
+[firefox-notifications]
+    appname = "Firefox"
+    format = "<b>%s</b>\n%b\n%a"
+    history_ignore = no
+    urgency = normal
+    timeout = 15
+    frame_color = "#4a7899"
+
+[yandex-notifications]
+    appname = "Yandex"
+    format = "<b>%s</b>\n%b\n%a"
+    history_ignore = no
+    urgency = normal
+    timeout = 15
+    frame_color = "#ff7f7f"
