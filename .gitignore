@@ -5,6 +5,7 @@
 !.gitignore
 !autostart/
 !bottom/
+!calcurse/
 !cmus/
 !dunst/
 !fastfetch/
