@@ -3,23 +3,24 @@
 
 # Но не игнорировать нужные файлы/папки
 !.gitignore
+!autostart/
+!bottom/
 !cmus/
 !dunst/
+!fastfetch/
 !fish/
+!gtk-3.0/
+!gtk-4.0/
+!htop/
 !i3/
 !kitty/
 !lazygit/
-!fastfetch/
 !nvim/
+!pipewire/
 !rofi/
+!xsettingsd/
 !yandex-disk/
 !yazi/
-!gtk-3.0/
-!gtk-4.0/
-!xsettingsd/
-!autostart/
-!bottom/
-!htop/
 
 !spectaclerc
 !mimeapps.list
