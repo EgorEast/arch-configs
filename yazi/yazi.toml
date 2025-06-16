@@ -16,9 +16,11 @@ max_height = 900
 [plugin]
 prepend_previewers = [
   { name = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"' },
+  { name = "*.csv", run = 'piper -- bat -p --color=always "$1"' },
   # Archive previewer
+  # { name = "*.zip", run = 'piper --format=url -- zip -t -f "$1"' },
   { mime = "application/*zip", run = "ouch" },
-  { mime = "application/x-tar", run = "ouch" },
+  { name = "*.tar*", run = 'piper --format=url -- tar -t -f "$1"' },
   { mime = "application/x-bzip2", run = "ouch" },
   { mime = "application/x-7z-compressed", run = "ouch" },
   { mime = "application/x-rar", run = "ouch" },
