@@ -15,7 +15,7 @@ max_height = 900
 
 [plugin]
 prepend_previewers = [
-  { name = "*.md", run = "glow" },
+  { name = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"' },
   # Archive previewer
   { mime = "application/*zip", run = "ouch" },
   { mime = "application/x-tar", run = "ouch" },
