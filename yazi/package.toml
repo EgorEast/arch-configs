@@ -20,8 +20,8 @@ hash = "7cc42012a7c2099f80064d228feb8d44"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "aeca767"
-hash = "d0ad0c1946b46a30c8489735fe8de41c"
+rev = "86d28e4"
+hash = "a030fe48d91b04341ad2fba9be957df"
 
 [[plugin.deps]]
 use = "Lil-Dank/lazygit"
@@ -35,18 +35,18 @@ hash = "d9dbd61d8b814e74a5420dba1e4788c4"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "aeca767"
-hash = "bf6f074cd41ee33c3360341d168f9733"
+rev = "86d28e4"
+hash = "e01006bfb38951ea89031bd918b20dbb"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "aeca767"
+rev = "86d28e4"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "aeca767"
-hash = "2bdc137505b8d9a0cc867a57d0e99b01"
+rev = "86d28e4"
+hash = "684ef2121ac1e33611355f02b799bd67"
 
 [[flavor.deps]]
 use = "BennyOe/tokyo-night"
