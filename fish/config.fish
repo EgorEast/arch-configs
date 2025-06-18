@@ -25,30 +25,36 @@ set -Ux EDITOR nvim
 set -Ux VISUAL nvim
 set -gx BROWSER xdg-open
 
+# pj plugin settings. Usage - pj <project name>
 set -U PROJECT_PATHS ~/Programming/exarh-web ~/Yandex.Disk/ ~/Yandex.Disk/Obsidian/
+# done plugin settings
 set -U __done_min_cmd_duration 20000 # default: 5000 ms
 set -U __done_exclude '^(v|nvim|y|yazi|m|cmus|g|lazygit)' # default: all git commands, except push and pull. accepts a regex.
 set -U __done_notify_sound 1
+# pisces plugin settings - autoclose pair sybols
 set -U pisces_only_insert_at_eol 1
 
-alias y="yazi"
-alias v="nvim"
-alias m="cmus"
-alias g="lazygit"
+alias browser='yandex-browser-stable'
+alias calendar='calcurse'
+alias disk_usage='gdu'
+alias download_from_youtube='yt-dlp'
 alias enable_keyboard1="sudo chmod 777 /dev/hidraw1"
 alias enable_keyboard2="sudo chmod 777 /dev/hidraw2"
+alias g="lazygit"
+alias generate_license='license' # Usage - license <license_name>. Example - license mit >> LICENSE
+alias live-server-run='live-server --port=3000 --host=localhost'
 alias ls='lsd'
-alias browser='yandex-browser-stable'
-alias update_fisher='fisher update'
-alias update_yazi_packages='ya pkg upgrade ndtoan96/ouch dedukun/relative-motions lpanebr/yazi-plugins:first-non-directory h-hg/yamb yazi-rs/plugins:chmod Lil-Dank/lazygit boydaihungst/restore yazi-rs/plugins:git yazi-rs/plugins:full-border yazi-rs/plugins:piper BennyOe/tokyo-night'
-alias update_packages='sudo pacman -Syu'
-alias update_packages_yay='yay'
-alias disk_usage='gdu'
+alias m="cmus"
+alias project_jump='pj'
 alias repo_info='onefetch'
-alias system_info='fastfetch'
 alias resources_usage='btm'
 alias resources_usage_htop='htop'
-alias download_from_youtube='yt-dlp'
+alias run_bash_command='bax'
+alias system_info='fastfetch'
+alias update_fisher='fisher update'
+alias update_packages='sudo pacman -Syu'
+alias update_packages_yay='yay'
+alias update_yazi_packages='ya pkg upgrade ndtoan96/ouch dedukun/relative-motions lpanebr/yazi-plugins:first-non-directory h-hg/yamb yazi-rs/plugins:chmod Lil-Dank/lazygit boydaihungst/restore yazi-rs/plugins:git yazi-rs/plugins:full-border yazi-rs/plugins:piper BennyOe/tokyo-night'
+alias v="nvim"
+alias y="yazi"
 alias yandex-disk='yandex-disk'
-alias live-server-run='live-server --port=3000 --host=localhost'
-alias calendar='calcurse'
