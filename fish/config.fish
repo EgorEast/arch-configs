@@ -24,6 +24,7 @@ set -g fish_escape_delay_ms 300
 set -Ux EDITOR nvim
 set -Ux VISUAL nvim
 set -gx BROWSER xdg-open
+set -x TERMINAL kitty
 
 # pj plugin settings. Usage - pj <project name>
 set -U PROJECT_PATHS ~/Programming/exarh-web ~/Yandex.Disk/ ~/Yandex.Disk/Obsidian/
@@ -50,6 +51,7 @@ alias repo_info='onefetch'
 alias resources_usage='btm'
 alias resources_usage_htop='htop'
 alias run_bash_command='bax'
+alias set_symlink_for_x_terminal_emulator='sudo ln -sf /usr/bin/kitty /usr/bin/x-terminal-emulator'
 alias system_info='fastfetch'
 alias update_fisher='fisher update'
 alias update_packages='sudo pacman -Syu'
