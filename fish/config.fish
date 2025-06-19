@@ -40,6 +40,7 @@ alias calendar='calcurse'
 alias disk_usage='gdu'
 # download with 128x720 resolution and to Downloads folder
 alias download_from_youtube='yt-dlp -f "bestvideo[height<=720]+bestaudio[abr<=128]" --merge-output-format mp4 -o "~/Загрузки/Youtube/%(title)s.%(ext)s"'
+alias download_from_youtube_best='yt-dlp -f "bestvideo+bestaudio" --merge-output-format mp4 -o "~/Загрузки/Youtube/%(title)s.%(ext)s"'
 alias enable_keyboard1="sudo chmod 777 /dev/hidraw1"
 alias enable_keyboard2="sudo chmod 777 /dev/hidraw2"
 alias g="lazygit"
