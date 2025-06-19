@@ -38,7 +38,8 @@ set -U pisces_only_insert_at_eol 1
 alias browser='yandex-browser-stable'
 alias calendar='calcurse'
 alias disk_usage='gdu'
-alias download_from_youtube='yt-dlp'
+# download with 128x720 resolution and to Downloads folder
+alias download_from_youtube='yt-dlp -f 136 -P "~/Загрузки/Youtube/"'
 alias enable_keyboard1="sudo chmod 777 /dev/hidraw1"
 alias enable_keyboard2="sudo chmod 777 /dev/hidraw2"
 alias g="lazygit"
