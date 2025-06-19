@@ -24,3 +24,5 @@ x-scheme-handler/http=yandex-browser.desktop;firefox.desktop;
 x-scheme-handler/https=yandex-browser.desktop;firefox.desktop;
 x-scheme-handler/mailto=yandex-browser.desktop
 x-scheme-handler/httpxdg-mime=yandex-browser.desktop;firefox.desktop;
+x-scheme-handler/webcal=yandex-browser.desktop
+x-scheme-handler/terminal=kitty.desktop
