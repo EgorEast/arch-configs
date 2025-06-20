@@ -30,8 +30,8 @@ hash = "a1fa2b3e1826c3a34804ea8c548e9f80"
 
 [[plugin.deps]]
 use = "boydaihungst/restore"
-rev = "b7c3376"
-hash = "d9dbd61d8b814e74a5420dba1e4788c4"
+rev = "97ebcc3"
+hash = "f997349417b30488a8ccd0e64d476bd8"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
