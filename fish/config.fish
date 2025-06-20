@@ -38,10 +38,9 @@ set -U pisces_only_insert_at_eol 1
 alias browser='yandex-browser-stable'
 alias calendar='calcurse'
 alias disk_usage='gdu'
-# download with 128x720 resolution and to Downloads folder
-alias download_from_youtube='yt-dlp'
-alias download_playlist_from_youtube='yt-dlp --output "~/Youtube/%(playlist_title)s/%(title)s.%(ext)s"'
+alias download_from_youtube='yt-dlp' # download with 128x720 resolution and to Downloads folder
 alias download_from_youtube_best='yt-dlp -f "bestvideo+bestaudio"'
+alias download_playlist_from_youtube='yt-dlp --output "~/Youtube/%(playlist_title)s/%(title)s.%(ext)s"'
 alias download_playlist_from_youtube_best='yt-dlp --output "~/Youtube/%(playlist_title)s/%(title)s.%(ext)s" -f "bestvideo+bestaudio"'
 alias enable_keyboard1="sudo chmod 777 /dev/hidraw1"
 alias enable_keyboard2="sudo chmod 777 /dev/hidraw2"
@@ -51,6 +50,7 @@ alias live-server-run='live-server --port=3000 --host=localhost'
 alias ls='lsd'
 alias m="cmus"
 alias project_jump='pj'
+alias rebuild_greenclip='yay -S greenclip --rebuild'
 alias repo_info='onefetch'
 alias resources_usage='btm'
 alias resources_usage_htop='htop'
