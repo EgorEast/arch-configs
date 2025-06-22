@@ -1,3 +1,5 @@
 [user]
 	name = egoreast
 	email = i@egoreast.ru
+[credential]
+	helper = libsecret
