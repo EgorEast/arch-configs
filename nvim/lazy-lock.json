@@ -32,7 +32,7 @@
   "mdx.nvim": { "branch": "main", "commit": "464a74be368dce212cff02f6305845dc7f209ab3" },
   "mini.ai": { "branch": "main", "commit": "d172ada7b0281044a06cb9a625a862553c457b6f" },
   "mini.diff": { "branch": "main", "commit": "9bccf260cdb9308223f47a29fb4cb91c817a9349" },
-  "mini.files": { "branch": "main", "commit": "90f11bfd3ecbed55c28cc836c3c62c19ecdf4de0" },
+  "mini.files": { "branch": "main", "commit": "a92ba6f1bf9e1e0b9c6de50db1f5df7ca89cb9e4" },
   "mini.hipatterns": { "branch": "main", "commit": "d71c21167d6bd5f21c9ecf90912c510f9edfc02b" },
   "mini.icons": { "branch": "main", "commit": "94848dad1589a199f876539bd79befb0c5e3abf0" },
   "mini.pairs": { "branch": "main", "commit": "42407ccb80ec59c84e7c91d815f42ed90a8cc093" },
