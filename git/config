@@ -3,3 +3,5 @@
 	email = i@egoreast.ru
 [credential]
 	helper = libsecret
+[init]
+  defaultBranch = main
