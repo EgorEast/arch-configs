@@ -5,8 +5,8 @@ hash = "63679f3daf8551ff8755be38b5ced0f"
 
 [[plugin.deps]]
 use = "dedukun/relative-motions"
-rev = "2e3b617"
-hash = "b67ee12053113983273e9118a7d1272b"
+rev = "9d26460"
+hash = "6c0568cfa966a5d4ac496c926975a613"
 
 [[plugin.deps]]
 use = "lpanebr/yazi-plugins:first-non-directory"
