@@ -5,3 +5,5 @@
 	helper = libsecret
 [init]
   defaultBranch = main
+[include]
+    path = ~/.config/delta/themes.gitconfig

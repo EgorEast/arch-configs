@@ -7,24 +7,25 @@
 !bottom/
 !calcurse/
 !cmus/
+!delta/
 !dunst/
 !fastfetch/
 !fish/
+!git/
 !gtk-3.0/
 !gtk-4.0/
 !htop/
 !i3/
 !kitty/
 !lazygit/
+!mpv/
 !nvim/
 !pipewire/
 !rofi/
 !xsettingsd/
 !yandex-disk/
 !yazi/
-!mpv/
 !yt-dlp/
-!git/
 
 !spectaclerc
 !mimeapps.list
