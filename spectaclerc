@@ -1,13 +1,31 @@
+[Annotations]
+annotationToolType=10
+arrowShadow=false
+blurStrength=0.25510204081632654
+ellipseShadow=false
+ellipseStrokeColor=255,0,0
+highlighterStrokeColor=255,0,0
+lineShadow=false
+numberFont=JetBrainsMono Nerd Font Mono,16,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
+pixelateStrength=0.2687074829931973
+rectangleShadow=false
+rectangleStrokeColor=255,0,0
+textFont=JetBrainsMono Nerd Font Mono,16,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
+textFontColor=255,0,0
+textShadow=false
+
 [General]
 clipboardGroup=PostScreenshotCopyImage
 launchAction=UseLastUsedCapturemode
 
 [GuiConfig]
+captureDelay=2
 captureMode=0
+captureOnClick=true
 
 [ImageSave]
-translatedScreenshotsFolder=Снимки экрана
+translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
 preferredVideoFormat=0
-translatedScreencastsFolder=Записи экрана
+translatedScreencastsFolder=Screen Recordings
