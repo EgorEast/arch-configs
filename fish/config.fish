@@ -6,6 +6,7 @@ end
 set PATH $PATH /home/egoreast/.local/bin
 
 zoxide init fish | source
+caniuse --completion-fish | source
 
 # Эти пути будут добавлены в $PATH единожды
 fish_add_path -m ~/bin ~/.local/bin
