@@ -78,6 +78,33 @@
     plus-style = syntax "#001a00"
     syntax-theme = Nord
 
+[delta "collared-trogon-egoreast"]
+    # author: https://github.com/clnoll
+    commit-decoration-style = bold box ul
+    dark = true
+    file-decoration-style = magenta overline
+    file-added-label = [●]
+    file-copied-label = [C]
+    file-modified-label = [+]
+    file-removed-label = [⛌]
+    file-renamed-label = [→]
+    file-style = 232 bold magenta 
+    hunk-header-decoration-style = cyan box ul
+    hunk-header-file-style = blue
+    hunk-header-line-number-style = bold cyan
+    hunk-header-style = file line-number syntax
+    line-numbers = true
+    line-numbers-left-style = magenta
+    line-numbers-minus-style = red
+    line-numbers-plus-style = green
+    line-numbers-right-style = "#022b45"
+    line-numbers-zero-style = "#999999"
+    minus-emph-style = normal "#80002a"
+    minus-style = normal "#330011"
+    plus-emph-style = syntax "#003300"
+    plus-style = syntax "#001a00"
+    syntax-theme = Nord
+
 [delta "coracias-caudatus"]
     # author: https://github.com/clnoll
     commit-decoration-style = ol "#7536ff"
