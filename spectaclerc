@@ -19,9 +19,7 @@ clipboardGroup=PostScreenshotCopyImage
 launchAction=UseLastUsedCapturemode
 
 [GuiConfig]
-captureDelay=2
 captureMode=0
-captureOnClick=true
 
 [ImageSave]
 translatedScreenshotsFolder=Screenshots
