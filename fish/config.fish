@@ -27,6 +27,7 @@ set -Ux VISUAL nvim
 set -gx BROWSER xdg-open
 set -x TERMINAL kitty
 
+set -x PAGER delta --line-numbers --features=collared-trogon-egoreast
 set -x GOOGLE_CLOUD_PROJECT for-gemini-464307
 
 # pj plugin settings. Usage - pj <project name>
