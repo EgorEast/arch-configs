@@ -56,6 +56,8 @@ return {
     { "<leader>oT", ":ObsidianTemplate<CR>", mode = { "n", "x" }, desc = "Template" }, -- :ObsidianTemplate [TEMPLATE] to create a new note using a template from the templates folder.
     { "<leader>ow", ":ObsidianWorkspace<CR>", mode = { "n", "x" }, desc = "Workspace" }, -- :ObsidianWorkspace [NAME] to switch to another workspace.
   },
+
+  ----@type obsidian.config.ClientOpts
   opts = {
     workspaces = {
       {
@@ -210,6 +212,7 @@ return {
     end,
 
     -- Optional, alternatively you can customize the frontmatter data.
+    ---@param note obsidian.Note
     ---@return table
     note_frontmatter_func = function(note)
       -- Add the title of the note as an alias.
