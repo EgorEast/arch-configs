@@ -27,6 +27,8 @@ set -Ux VISUAL nvim
 set -gx BROWSER xdg-open
 set -x TERMINAL kitty
 
+set -x GOOGLE_CLOUD_PROJECT for-gemini-464307
+
 # pj plugin settings. Usage - pj <project name>
 set -U PROJECT_PATHS ~/Programming/exarh-web ~/Yandex.Disk/ ~/Yandex.Disk/Obsidian/
 # done plugin settings
@@ -36,6 +38,7 @@ set -U __done_notify_sound 1
 # pisces plugin settings - autoclose pair sybols
 set -U pisces_only_insert_at_eol 1
 
+alias ai='gemini'
 alias browser='yandex-browser-stable'
 alias calendar='calcurse'
 alias check_saved_git_passwords='seahorse'
