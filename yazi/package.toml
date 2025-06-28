@@ -20,7 +20,7 @@ hash = "7cc42012a7c2099f80064d228feb8d44"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "7c174cc"
+rev = "2ad42fa"
 hash = "1adc12c2b2b025411ab61eb8f0879574"
 
 [[plugin.deps]]
@@ -35,17 +35,17 @@ hash = "6513e9224b29ac1e2b3a7326ff648e81"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "7c174cc"
+rev = "2ad42fa"
 hash = "e01006bfb38951ea89031bd918b20dbb"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "7c174cc"
+rev = "2ad42fa"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "7c174cc"
+rev = "2ad42fa"
 hash = "2143a53182dbbe935a1abd1623424aa5"
 
 [[flavor.deps]]
