@@ -50,5 +50,5 @@ hash = "2143a53182dbbe935a1abd1623424aa5"
 
 [[flavor.deps]]
 use = "BennyOe/tokyo-night"
-rev = "b3950bf"
-hash = "319ce574cdb2865baf4323db90456504"
+rev = "5f56364"
+hash = "c0bf69ad2c44005892d586e9693993c6"
