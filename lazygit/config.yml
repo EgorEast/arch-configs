@@ -12,18 +12,18 @@ gui:
 
   # Custom icons for filenames and file extensions
   # See https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#custom-files-icon--color
-  customIcons:
-    # Map of filenames to icon properties (icon and color)
-    # filenames: {}
-
-    # Map of file extensions (including the dot) to icon properties (icon and color)
-    extensions:
-      ".md":
-        "icon": ""
-        "color": "blue"
-      ".css":
-        "icon": "\ue6b8"
-        "color": "red"
+  # customIcons:
+  #   # Map of filenames to icon properties (icon and color)
+  #   # filenames: {}
+  #
+  #   # Map of file extensions (including the dot) to icon properties (icon and color)
+  #   extensions:
+  #     ".md":
+  #       "icon": ""
+  #       "color": "blue"
+  #     ".css":
+  #       "icon": "\ue6b8"
+  #       "color": "red"
 
   # If true, capture mouse events.
   # When mouse events are captured, it's a little harder to select text: e.g. requiring you to hold the option key when on macOS.
