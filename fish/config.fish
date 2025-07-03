@@ -44,6 +44,7 @@ alias browser='yandex-browser-stable'
 alias calendar='calcurse'
 alias check_saved_git_passwords='seahorse'
 alias check_saved_git_passwords_in_terminal='secret-tool'
+alias connect_on_ssh="kitten ssh"
 alias disk_usage='gdu'
 alias download_from_youtube='yt-dlp' # download with 128x720 resolution and to Downloads folder
 alias download_from_youtube_best='yt-dlp -f "bestvideo+bestaudio"'
