@@ -1,6 +1,6 @@
 {
-    "custom": "{\"rules\": []}",
-    "def_outbound": "proxy",
+    "custom": "{\"rules\":[{\"domain_suffix\":[\".ru\",\".su\",\"exarh.ru\"],\"outbound\":\"direct\"}]}",
+    "def_outbound": "bypass",
     "direct_dns": "https://doh.pub/dns-query",
     "dns_final_out": "proxy",
     "dns_routing": true,

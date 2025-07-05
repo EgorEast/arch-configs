@@ -5,7 +5,7 @@
     "core_box_clash_api": -9090,
     "current_group": 3,
     "custom_inbound": "{\"inbounds\": []}",
-    "custom_route": "{\"rules\": []}",
+    "custom_route": "{\"rules\":[]}",
     "extraCore": {
     },
     "fakedns": false,
@@ -41,11 +41,12 @@
     "test_url_dl": "http://cachefly.cachefly.net/10mb.test",
     "theme": "0",
     "traffic_loop_interval": 1000,
+    "vpn_bypass_process": "yandex_browser\nkitty\nfirefox\nchrome",
     "vpn_hide_console": true,
     "vpn_impl": 0,
     "vpn_internal_tun": true,
     "vpn_ipv6": false,
     "vpn_mtu": 9000,
-    "vpn_rule_white": false,
+    "vpn_rule_white": true,
     "vpn_strict_route": false
 }
