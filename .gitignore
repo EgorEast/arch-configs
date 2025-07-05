@@ -26,6 +26,7 @@
 !yandex-disk/
 !yazi/
 !yt-dlp/
+!nekoray/
 
 !spectaclerc
 !mimeapps.list
@@ -39,4 +40,4 @@
 yandex-disk/iid
 yandex-disk/passwd
 yandex-disk/crash.txt
-
+nekoray/config/neko.log

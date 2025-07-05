@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "193.47.60.182",
+        "name": "egoreast_x3_ui",
+        "pass": "63881b2b-b11c-4b84-bf85-06fe9cff4987",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "nvLFubv991Rvg5TXgimTyKgxpcEeVUJxUhWPX7_Csxs",
+            "sec": "tls",
+            "sid": "1c288158212717",
+            "sni": "yahoo.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 0,
+    "traffic": {
+        "dl": 55619790,
+        "ul": 2881490
+    },
+    "type": "vless",
+    "yc": 0
+}
