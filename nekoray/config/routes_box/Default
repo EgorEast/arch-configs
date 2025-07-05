@@ -1,9 +1,14 @@
 {
-    "custom": "{\"rules\":[{\"domain_suffix\":[\".ru\",\".su\",\"exarh.ru\"],\"outbound\":\"direct\"}]}",
-    "def_outbound": "bypass",
+    "block_domain": "geosite:category-ads-all\ndomain:appcenter.ms\ndomain:firebase.io\ndomain:crashlytics.com\n",
+    "custom": "{\"rules\":[]}",
+    "def_outbound": "proxy",
     "direct_dns": "https://doh.pub/dns-query",
+    "direct_domain": "geosite:cn\ngeosite:ru\ndomain:ru\ndomain:su\ndomain:рф\ndomain:meet.google.com",
+    "direct_ip": "geoip:cn\ngeoip:ru\ngeoip:private",
     "dns_final_out": "proxy",
     "dns_routing": true,
+    "proxy_domain": "geosite:google\ngoogle.com\ndomain:com\ndomain:ipinfo.com",
+    "proxy_ip": "geoip:google",
     "remote_dns": "https://dns.google/dns-query",
     "sniffing_mode": 1,
     "use_dns_object": false

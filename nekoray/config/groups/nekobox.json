@@ -5,7 +5,7 @@
     "core_box_clash_api": -9090,
     "current_group": 3,
     "custom_inbound": "{\"inbounds\": []}",
-    "custom_route": "{\"rules\":[]}",
+    "custom_route": "{\"rules\":[{\"outbound\":\"direct\",\"protocol\":[\"bittorrent\"]}]}",
     "extraCore": {
     },
     "fakedns": false,
@@ -28,7 +28,8 @@
     "skip_cert": false,
     "splitter_state": "AAAA/wAAAAEAAAACAAAAZwAAAGcB/////wEAAAACAA==",
     "spmode2": [
-        "vpn"
+        "vpn",
+        "system_proxy"
     ],
     "start_minimal": false,
     "sub_auto_update": -30,
