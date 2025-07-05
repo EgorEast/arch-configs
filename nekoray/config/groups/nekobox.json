@@ -5,7 +5,7 @@
     "core_box_clash_api": -9090,
     "current_group": 3,
     "custom_inbound": "{\"inbounds\": []}",
-    "custom_route": "{\"rules\":[]}",
+    "custom_route": "{\"rules\":[{\"outbound\":\"direct\",\"protocol\":[\"bittorrent\"]}]}",
     "extraCore": {
     },
     "fakedns": false,
