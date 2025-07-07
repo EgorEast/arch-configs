@@ -511,6 +511,7 @@ for_window [window_role="About"] floating enable
 for_window [class="mpv"] floating enable
 for_window [class="Nm-connection-editor"] floating enable
 for_window [class="nekoray"] floating enable
+for_window [class="obs"] floating enable
 
 # set border of floating window
 for_window [class="urxvt"] border pixel 1
