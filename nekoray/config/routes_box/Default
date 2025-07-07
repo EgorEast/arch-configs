@@ -7,7 +7,7 @@
     "direct_ip": "geoip:ru\ngeoip:private",
     "dns_final_out": "proxy",
     "dns_routing": true,
-    "proxy_domain": "domain:youtu.be\ndomain:rutracker.org\ndomain:youtube.com\ndomain:streamable.com\ndomain:ytimg.com\ndomain:googlevideo.com\ndomain:googleapis.com\ndomain:ggpht.com\ndomain:chatgpt.com\ndomain:chat.openai.com\ndomain:instagram.com\ndomain:twitter.com\ndomain:facebook.com\ndomain:x.com\ndomain:linkedin.com\ndomain:twimg.com\ndomain:fbcdn.net\ndomain:ipinfo.io\ndomain:ipinfo.com\n",
+    "proxy_domain": "domain:youtu.be\ndomain:rutracker.org\ndomain:youtube.com\ndomain:streamable.com\ndomain:ytimg.com\ndomain:googlevideo.com\ndomain:googleapis.com\ndomain:ggpht.com\ndomain:chatgpt.com\ndomain:chat.openai.com\ndomain:instagram.com\ndomain:twitter.com\ndomain:facebook.com\ndomain:x.com\ndomain:linkedin.com\ndomain:twimg.com\ndomain:fbcdn.net\ndomain:ipinfo.com\ndomain:github.com\ndomain:archlinux.org\ndomain:ipinfo.io",
     "proxy_ip": "geoip:google",
     "remote_dns": "https://dns.google/dns-query",
     "sniffing_mode": 1,
