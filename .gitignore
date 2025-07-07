@@ -27,6 +27,7 @@
 !yazi/
 !yt-dlp/
 !nekoray/
+!obs-studio/
 
 !spectaclerc
 !mimeapps.list
@@ -41,4 +42,7 @@ yandex-disk/iid
 yandex-disk/passwd
 yandex-disk/crash.txt
 nekoray/config/neko.log
-nekoray/config/profiles/
+nekoray/config/profiles
+obs-studio/logs
+obs-studio/profiler_data
+obs-studio/safe_mode
