@@ -1,7 +1,7 @@
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "1ee69a5"
-hash = "63679f3daf8551ff8755be38b5ced0f"
+rev = "bb941c4"
+hash = "956b02fe8213e7b92e21a941b9abe764"
 
 [[plugin.deps]]
 use = "dedukun/relative-motions"
@@ -20,7 +20,7 @@ hash = "7cc42012a7c2099f80064d228feb8d44"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "cbc4450"
+rev = "b886025"
 hash = "1adc12c2b2b025411ab61eb8f0879574"
 
 [[plugin.deps]]
@@ -35,17 +35,17 @@ hash = "6513e9224b29ac1e2b3a7326ff648e81"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "cbc4450"
-hash = "a57f09c9e61ffc850d8ea8c6fc1efb2c"
+rev = "b886025"
+hash = "63b6c222bf2103b3023389dde5e2ecfe"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "cbc4450"
+rev = "b886025"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "cbc4450"
+rev = "b886025"
 hash = "2143a53182dbbe935a1abd1623424aa5"
 
 [[flavor.deps]]
