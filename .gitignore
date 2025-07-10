@@ -3,6 +3,8 @@
 
 # Но не игнорировать нужные файлы/папки
 !.gitignore
+!.vimrc
+!.vimrc-by-experienced-programmer
 !autostart/
 !bottom/
 !calcurse/
