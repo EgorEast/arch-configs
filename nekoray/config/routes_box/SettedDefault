@@ -1,4 +1,3 @@
-
 {
     "block_domain": "geosite:category-ads-all\ndomain:appcenter.ms\ndomain:firebase.io\ndomain:crashlytics.com\n",
     "custom": "{\"rules\":[]}",

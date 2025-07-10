@@ -1,5 +1,5 @@
 {
-    "active_routing": "Default",
+    "active_routing": "Custom",
     "check_include_pre": false,
     "conn_stat": false,
     "core_box_clash_api": -9090,
