@@ -7,3 +7,5 @@
   defaultBranch = main
 [include]
     path = ~/.config/delta/themes.gitconfig
+[core]
+	editor = nvim
