@@ -22,8 +22,8 @@ set -U fish_key_bindings fish_vi_key_bindings
 # Двойное нажатие ESC не работает, если выставить меньше
 set -g fish_escape_delay_ms 300
 
-set -Ux EDITOR nvim
-set -Ux VISUAL nvim
+set -gx EDITOR nvim
+set -gx VISUAL nvim
 set -gx BROWSER xdg-open
 set -x TERMINAL kitty
 
