@@ -1,7 +1,7 @@
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "bb941c4"
-hash = "956b02fe8213e7b92e21a941b9abe764"
+rev = "0742fff"
+hash = "2bd799b42b8e42b8ef100310be71f8d1"
 
 [[plugin.deps]]
 use = "dedukun/relative-motions"
@@ -30,8 +30,8 @@ hash = "a1fa2b3e1826c3a34804ea8c548e9f80"
 
 [[plugin.deps]]
 use = "boydaihungst/restore"
-rev = "2c2802d"
-hash = "6513e9224b29ac1e2b3a7326ff648e81"
+rev = "84f1921"
+hash = "355f163cb374b5c9514aee2b64121678"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
