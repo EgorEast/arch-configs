@@ -81,3 +81,5 @@ set foldlevel=1
 set wildmenu
 
 set clipboard+=unnamed
+
+set relativenumber
