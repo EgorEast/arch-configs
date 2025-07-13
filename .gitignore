@@ -40,6 +40,7 @@
 !greenclip.toml
 !pavucontrol.ini
 !yandex-music.conf
+!.Xresources
 
 yandex-disk/iid
 yandex-disk/passwd
