@@ -44,6 +44,8 @@
 !Xresources
 !vimrc
 !curlrc
+!inputrc
+!wgetrc
 
 yandex-disk/iid
 yandex-disk/passwd
