@@ -43,6 +43,7 @@
 !yandex-music.conf
 !Xresources
 !vimrc
+!curlrc
 
 yandex-disk/iid
 yandex-disk/passwd
