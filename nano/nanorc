@@ -1,11 +1,3 @@
-
-# 🅳🅾🆃🅵🅸🅻🅴🆂 (v0.2.470) - <https://dotfiles.io>
-# Made with ♥ in London, UK by Sebastien Rousseau
-# Copyright (c) 2015-2025. All rights reserved
-# License: MIT
-
-# 🅽🅰🅽🅾🆁🅲
-
 # Display
 set atblanks # Display trailing blanks
 set autoindent # Indent new lines to the previous line's indentation
