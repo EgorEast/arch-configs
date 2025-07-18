@@ -23,8 +23,14 @@ Based on: <https://github.com/xero/dotfiles>
 - [managing](#managing)
 - [installing](#installing)
 - [how it works](#how-it-works)
+- [my dotfiles setup](#my-dotfiles-setup)
 - [tl;dr](#tldr)
-- [license](#license)
+- [install packages](#install-packages)
+- [setup kitty](#setupkitty)
+- [apply xresources](#apply-xresources)
+- [enable necessary services](#enable-necessary-services)
+- [setup env variables](#setup-env-variables)
+- [clone endeavouros wallpapers](#clone-endeavouros-wallpapers)
 
 # managing
 
