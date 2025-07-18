@@ -18,8 +18,6 @@
 
 Based on: <https://github.com/xero/dotfiles>
 
-> **NOTE:** if you are looking for my linux wm configs like [2bwm](https://github.com/xero/dotfiles/tree/classic/2bwm), [windowchef](https://github.com/xero/dotfiles/tree/classic/windowchef), etc. they now live in the [classic](https://github.com/xero/dotfiles/tree/classic) branch and are not actively maintained since i live in the tty, xorg free, these days.
-
 ## table of contents
 
 - [managing](#managing)
@@ -73,7 +71,7 @@ to fully "install" and setup this repo run the [setup script](https://github.com
 # clone and stow
 git clone git@github.com:EgorEast/dotfiles.git ~/.local/src/dotfiles &&
  cd ~/.local/src/dotfiles &&
- stow anydesk autostart bash bottom calcurse cmus curl daily-notes delta dunst fastfetch fish gemini git glow greenclip gtk-3.0 gtk-4.0 gtkrc-2.0 htop i3 icons inputrc kitty lazygit mineapp-list mpv nano nekoray neovim nvim.astro nvim.nvchad nwg-look obs onlyoffice pavucontrol picom pipewire rofi rudesktop spectacle ssh thunar user-dirs vim wget xfce-4 xinit xorg xsettingsd ya-disk ya-music yazi yt-dlp -t ~
+ stow anydesk autostart bash bottom calcurse cmus curl delta dunst fastfetch fish gemini git glow greenclip gtk-3.0 gtk-4.0 gtkrc-2.0 htop i3 icons inputrc kitty lazygit mineapp-list mpv nano nekoray neovim nvim.astro nvim.nvchad nwg-look obs onlyoffice pavucontrol picom pipewire rofi rudesktop spectacle ssh thunar user-dirs vim wget xfce-4 xinit xorg xsettingsd ya-disk ya-music yazi yt-dlp -t ~
 
 # nvim
 mkdir ~/.local/nvim &&
