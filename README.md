@@ -70,7 +70,7 @@ this will symlink the fun scripts like `food` to `/usr/local/bin`. notice that t
 
 to fully "install" and setup this repo run the [setup script](https://github.com/xero/dotfiles/blob/main/setup) or something like this:
 
-```
+```sh
 # clone and stow
 git clone git@github.com:EgorEast/dotfiles.git ~/.local/src/dotfiles &&
  cd ~/.local/src/dotfiles &&
@@ -78,7 +78,7 @@ git clone git@github.com:EgorEast/dotfiles.git ~/.local/src/dotfiles &&
 
 # nvim
 nvim --headless "+Lazy! sync" +qa
-nvim --headless "+MasonUpdate" +qa
+nvim --headless "+Lazy! load mason.nvim" "+lua require('mason.api.command').MasonUpdate()" +qa
 ```
 
 # tl;dr
