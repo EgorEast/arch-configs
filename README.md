@@ -111,3 +111,60 @@ uninstall fish
 `stow -D fish`
 
 etc, etc, etc...
+
+# install packages
+
+```sh
+sudo pacman -S vim nodejs-lts-jod npm kitty ttf-jetbrains-mono-nerd fish fisher nvim lazygit git-delta trash-cli zoxide ouch glow onefetch ripgrep xclip xsel bottom htop cmus lsd playerctl jq gparted qbittorrent spectacle obs-studio networkmanager-openvpn yt-dlp shortcut redshift blueberry xfce4-clipman-plugin gsimplecal calcurse telegram-desktop libsecret gnome-keyring seahorse ddcutil firefox brightnessctl
+
+
+yay -S yazi-git fastfetch kshutdown fish-done yandex-browser onlyoffice-bin portproton ventoy-bin pantum-driver yandex-browser-stable yandex-disk visual-studio-code-bin xkblayout-state-git picom rofi-greenclip rudesktop anydesk-bin xautolock nekoray-bin obsidian whatsapp-linux-desktop
+
+sudo npm install -g npm-check-updates @bramus/caniuse-cli @google/gemini-cli
+
+curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
+chmod +x gdu_linux_amd64
+mv gdu_linux_amd64 /usr/bin/gdu
+
+curl -LsSf https://aider.chat/install.sh | sh
+
+sudo usermod -aG i2c $USER  # добавляем пользователя в группу i2c
+sudo modprobe i2c-dev
+```
+
+# setup kitty
+
+```sh
+sudo ln -sf /usr/bin/kitty /usr/bin/x-terminal-emulator
+
+```
+
+# apply xresources
+
+```sh
+xrdb -merge ~/.Xresources
+
+```
+
+# enable necessary services
+
+```sh
+sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
+
+yandex-disk token
+yandex-disk start
+
+```
+
+# setup env variables
+
+```sh
+sudo bash -c 'grep -q "EDITOR=" /etc/environment && sed -i "s/^EDITOR=.*$/EDITOR=nvim/" /etc/environment || echo "EDITOR=nvim" >> /etc/environment; grep -q "BROWSER=" /etc/environment && sed -i "s/^BROWSER=.*$/BROWSER=yandex-browser-stable/" /etc/environment || echo "BROWSER=yandex-browser-stable" >> /etc/environment; grep -q "VISUAL=" /etc/environment || echo "VISUAL=nvim" >> /etc/environment; awk "!seen[\$0]++ && NF" /etc/environment > /tmp/env.tmp && mv /tmp/env.tmp /etc/environment; echo -e "\nПроверка:\n$(cat /etc/environment)"'
+```
+
+# clone endeavouros wallpapers
+
+```sh
+git clone https://github.com/EndeavourOS-Community-Editions/Community-wallpapers /usr/share/endeavouros/backgrounds/
+```
