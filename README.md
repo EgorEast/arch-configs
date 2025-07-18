@@ -26,6 +26,7 @@ Based on: <https://github.com/xero/dotfiles>
 - [my dotfiles setup](#my-dotfiles-setup)
 - [tl;dr](#tldr)
 - [install packages](#install-packages)
+- [install and setup aider](#install-and-setup-aider)
 - [setup kitty](#setupkitty)
 - [apply xresources](#apply-xresources)
 - [enable necessary services](#enable-necessary-services)
@@ -49,20 +50,14 @@ or clone it [from source](https://savannah.gnu.org/git/?group=stow) and [build i
 
 # how it works
 
-by default the stow command will create symlinks for files in the parent directory of where you execute the command. since i keep my dots in: `~/.local/src/dotfiles` and all stow commands should be executed in that directory and suffixed with `-t ~` to target the home directory. otherwise they will end up in `~/.local/`. if you wanna make things easier on yourself you can clone the repo to `~/dotfiles` then run commands with no flags. but who likes things easy in the unix world ;P
+by default the stow command will create symlinks for files in the parent directory of where you execute the command. since i keep my dots in: `~/.local/src/dotfiles` and all stow commands should be executed in that directory and suffixed with `-t ~` to target the home directory. otherwise they will end up in `~/.local/`.
 
 to install configs execute the stow command with the folder name as the first argument, then target your home directory (or wherever you like).
 
-to install my **zsh** configs use the command:
+to install my **fish** configs use the command:
 
-`stow zsh -t ~`
-this will symlink files like `.zshrc` to `~/.config/zsh`
-
-to install the **fun scripts** to `/usr/local/bin` execute the command:
-
-`stow fun -t /usr/local/`
-
-this will symlink the fun scripts like `food` to `/usr/local/bin`. notice that the location of the scripts has appended a bin folder? that's b/c stow creates or uses the exact folder structure of the repo. and the food script is located at `/fun/bin/food` in this repo.
+`stow fish -t ~`
+this will symlink files like `config.fish` to `~/.config/fish`
 
 **note:** stow can only create a symlink if a config file does not already exist. if a default file was created upon program installation you must delete it first before you can install a new one with stow. this does not apply to directories, only files.
 
@@ -123,6 +118,11 @@ curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.t
 chmod +x gdu_linux_amd64
 mv gdu_linux_amd64 /usr/bin/gdu
 
+```
+
+# install and setup aider
+
+```sh
 curl -LsSf https://aider.chat/install.sh | sh
 
 sudo usermod -aG i2c $USER  # добавляем пользователя в группу i2c
