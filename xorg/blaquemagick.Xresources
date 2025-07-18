@@ -3,9 +3,19 @@
 ! ┗━┛┗━╸╹ ╹┗┻┛┗━┛┗━╸   ╹ ╹╹ ╹┗━┛╹┗━╸╹ ╹
 ! blaque magick by xero harrison (https://x-e.ro)
 
-xterm*faceName: JetBrainsMono Nerd Font Mono
-xterm*faceSize: 9.5
-xterm*boldMode: true
+! Window title
+
+*Title: XTerm
+
+*internalBorder: 2
+
+! Typeface
+
+*faceName: JetBrainsMono Nerd Font Mono
+*faceSize: 9.5
+*boldMode: true
+
+! Color theme
 
 *.foreground:   #c2c2b0
 *.background:   #222222
@@ -38,3 +48,9 @@ xterm*boldMode: true
 URxvt.colorIT:  #444444
 URxvt.colorBD:  #444444
 URxvt.colorUL:  #444444
+
+! History and scrolling
+
+*saveLines: 10000
+*scrollBar: false
+*scrollLines: 1

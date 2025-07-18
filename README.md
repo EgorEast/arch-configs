@@ -142,14 +142,12 @@ sudo modprobe i2c-dev
 
 ```sh
 sudo ln -sf /usr/bin/kitty /usr/bin/x-terminal-emulator
-
 ```
 
 # apply xresources
 
 ```sh
-xrdb -merge ~/egoreast.Xresources
-
+xrdb -merge ~/evangelion.Xresources
 ```
 
 # enable necessary services
@@ -160,7 +158,6 @@ sudo systemctl enable bluetooth
 
 yandex-disk token
 yandex-disk start
-
 ```
 
 # setup env variables

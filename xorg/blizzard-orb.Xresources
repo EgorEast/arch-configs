@@ -10,9 +10,19 @@
 ! █▓▒░ blizzard orb colors
 ! by xero harrison (https://x-e.ro)
 
-xterm*faceName: JetBrainsMono Nerd Font Mono
-xterm*faceSize: 9.5
-xterm*boldMode: true
+! Window title
+
+*Title: XTerm
+
+*internalBorder: 2
+
+! Typeface
+
+*faceName: JetBrainsMono Nerd Font Mono
+*faceSize: 9.5
+*boldMode: true
+
+! Color theme
 
 *.foreground:   #111111
 *.background:   #fcfcfc
@@ -45,3 +55,9 @@ xterm*boldMode: true
 URxvt.colorIT:  #4C6E84
 URxvt.colorBD:  #87875f
 URxvt.colorUL:  #528b8b
+
+! History and scrolling
+
+*saveLines: 10000
+*scrollBar: false
+*scrollLines: 1

@@ -10,9 +10,19 @@
 !  ├─ based on sorcerer by Jeet Sukumaran (http://jeetworks.org)
 !  └─ based on mustang by Henrique C. Alves (hcarvalhoalves@gmail.com)
 
-xterm*faceName: JetBrainsMono Nerd Font Mono
-xterm*faceSize: 9.5
-xterm*boldMode: true
+! Window title
+
+*Title: XTerm
+
+*internalBorder: 2
+
+! Typeface
+
+*faceName: JetBrainsMono Nerd Font Mono
+*faceSize: 9.5
+*boldMode: true
+
+! Color theme
 
 ! █▓▒░ scorcerer colors
 *.foreground:   #c2c2b0
@@ -47,3 +57,9 @@ xterm*boldMode: true
 URxvt.colorIT:  #719611
 URxvt.colorBD:  #d3d3d3
 URxvt.colorUL:  #528b8b
+
+! History and scrolling
+
+*saveLines: 10000
+*scrollBar: false
+*scrollLines: 1

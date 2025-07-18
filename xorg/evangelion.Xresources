@@ -3,7 +3,7 @@
 !                 |  \ .        |    :   |\            /\
 !              .  |   :|\__     |    |   | \          /  \
 ! .            |\ |   |! \ \    |    |   | |\        /   /
-! \"-.______   | \:   ||\ \ \   |    |   | | \      /   /
+! \--.______   | \:   ||\ \ \   |    |   | | \      /   /
 !  \_       "-_|  |\  || \ \/   |    |___| ! |\____/  _/-. /\
 !    "-_   ____:  |_\ ||  \/  ___\  __  _//  | |  ___ \---" /
 !       \  \   |  _____,  /___\___\/ / /   \_! |  // _/  / /
@@ -12,9 +12,19 @@
 !              | /     |   :      | /     /__/
 !              |/                 |/   E V A N G E L I O N
 
-xterm*faceName: JetBrainsMono Nerd Font Mono
-xterm*faceSize: 9.5
-xterm*boldMode: true
+! Window title
+
+*Title: XTerm
+
+*internalBorder: 2
+
+! Typeface
+
+*faceName: JetBrainsMono Nerd Font Mono
+*faceSize: 9.5
+*boldMode: true
+
+! Color theme
 
 *.foreground:   #8edf5f
 *.background:   #242629
@@ -47,3 +57,9 @@ xterm*boldMode: true
 URxvt.colorIT:  #b968fc
 URxvt.colorBD:  #87FF5F
 URxvt.colorUL:  #87FF5F
+
+! History and scrolling
+
+*saveLines: 10000
+*scrollBar: false
+*scrollLines: 1
