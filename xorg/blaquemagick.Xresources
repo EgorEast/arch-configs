@@ -3,6 +3,10 @@
 ! ┗━┛┗━╸╹ ╹┗┻┛┗━┛┗━╸   ╹ ╹╹ ╹┗━┛╹┗━╸╹ ╹
 ! blaque magick by xero harrison (https://x-e.ro)
 
+xterm*faceName: JetBrainsMono Nerd Font Mono
+xterm*faceSize: 9.5
+xterm*boldMode: true
+
 *.foreground:   #c2c2b0
 *.background:   #222222
 *.cursorColor:  #c2c2b0

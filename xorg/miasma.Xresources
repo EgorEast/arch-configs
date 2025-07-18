@@ -3,6 +3,10 @@
 // ┛ ┇┇┛ ┇━━┛┛ ┇┛ ┇
 //  miasma by xero (https://x-e.ro)
 
+xterm*faceName: JetBrainsMono Nerd Font Mono
+xterm*faceSize: 9.5
+xterm*boldMode: true
+
 *.foreground:   #c2c2b0
 *.background:   #222222
 *.cursorColor:  #5f875f

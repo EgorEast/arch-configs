@@ -10,6 +10,10 @@
 ! █▓▒░ blizzard orb colors
 ! by xero harrison (https://x-e.ro)
 
+xterm*faceName: JetBrainsMono Nerd Font Mono
+xterm*faceSize: 9.5
+xterm*boldMode: true
+
 *.foreground:   #111111
 *.background:   #fcfcfc
 *.cursorColor:  #94B6CC

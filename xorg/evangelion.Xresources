@@ -12,6 +12,10 @@
 !              | /     |   :      | /     /__/
 !              |/                 |/   E V A N G E L I O N
 
+xterm*faceName: JetBrainsMono Nerd Font Mono
+xterm*faceSize: 9.5
+xterm*boldMode: true
+
 *.foreground:   #8edf5f
 *.background:   #242629
 *.cursorColor:  #5f875f

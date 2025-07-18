@@ -148,7 +148,7 @@ sudo ln -sf /usr/bin/kitty /usr/bin/x-terminal-emulator
 # apply xresources
 
 ```sh
-xrdb -merge ~/.Xresources
+xrdb -merge ~/egoreast.Xresources
 
 ```
 
