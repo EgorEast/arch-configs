@@ -66,8 +66,6 @@ this will symlink the fun scripts like `food` to `/usr/local/bin`. notice that t
 
 **note:** stow can only create a symlink if a config file does not already exist. if a default file was created upon program installation you must delete it first before you can install a new one with stow. this does not apply to directories, only files.
 
-more notes on using/understanding stow in [this github issue](https://github.com/xero/dotfiles/issues/14).
-
 # my dotfiles setup
 
 to fully "install" and setup this repo run the [setup script](https://github.com/xero/dotfiles/blob/main/setup) or something like this:
@@ -79,14 +77,8 @@ git clone git@github.com:EgorEast/dotfiles.git ~/.local/src/dotfiles &&
  stow anydesk autostart bash bottom calcurse cmus curl delta dunst fastfetch fish gemini git glow greenclip gtk-3.0 gtk-4.0 gtk-2.0 htop i3 icons inputrc kitty lazygit mineapp-list mpv nano nekoray neovim nwg-look obs onlyoffice pavucontrol picom pipewire rofi rudesktop spectacle ssh thunar user-dirs vim wget xfce-4 xinit xorg xsettingsd ya-disk ya-music yazi yt-dlp -t ~
 
 # nvim
-mkdir ~/.local/nvim &&
-  git clone --filter=blob:none --single-branch https://github.com/folke/lazy.nvim.git ~/.local/share/nvim/lazy
 nvim --headless "+Lazy! sync" +qa
 nvim --headless "+MasonUpdate" +qa
-
-# creating ~src and ~dotfiles aliases"
-sudo useradd -g src -d ~/.local/src src
-sudo useradd -d ~/.local/src/dotfiles dotfiles
 ```
 
 # tl;dr
