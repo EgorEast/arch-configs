@@ -30,7 +30,6 @@ Based on: <https://github.com/xero/dotfiles>
 - [apply xresources](#apply-xresources)
 - [enable necessary services](#enable-necessary-services)
 - [setup env variables](#setup-env-variables)
-- [clone endeavouros wallpapers](#clone-endeavouros-wallpapers)
 
 # managing
 
@@ -164,10 +163,4 @@ yandex-disk start
 
 ```sh
 sudo bash -c 'grep -q "EDITOR=" /etc/environment && sed -i "s/^EDITOR=.*$/EDITOR=nvim/" /etc/environment || echo "EDITOR=nvim" >> /etc/environment; grep -q "BROWSER=" /etc/environment && sed -i "s/^BROWSER=.*$/BROWSER=yandex-browser-stable/" /etc/environment || echo "BROWSER=yandex-browser-stable" >> /etc/environment; grep -q "VISUAL=" /etc/environment || echo "VISUAL=nvim" >> /etc/environment; awk "!seen[\$0]++ && NF" /etc/environment > /tmp/env.tmp && mv /tmp/env.tmp /etc/environment; echo -e "\nПроверка:\n$(cat /etc/environment)"'
-```
-
-# clone endeavouros wallpapers
-
-```sh
-git clone https://github.com/EndeavourOS-Community-Editions/Community-wallpapers /usr/share/endeavouros/backgrounds/
 ```
